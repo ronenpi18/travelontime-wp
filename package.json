@@ -1,12 +1,16 @@
 {
-  "name": "agency",
+  "name": "tripon",
   "title": "Agency",
-  "version": "3.3.7+1",
+  "version": "3.3.7",
   "author": "Ronen Pinhasov",
   "license": "ISC",
+  "scripts": {
+    "start": "node app.js"
+  },
   "devDependencies": {
     "bootstrap": "^3.3.7",
     "browser-sync": "^2.13.0",
+    "expressjs": "^1.0.1",
     "font-awesome": "^4.6.3",
     "gulp": "^3.9.1",
     "gulp-clean-css": "^2.0.10",
@@ -19,6 +23,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/BlackrockDigital/startbootstrap-agency.git"
-  }
+    "url": "git+https://github.com/ronenpi18/tripon-wp.git"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "main": "app.js"
 }
